@@ -3,3 +3,29 @@
         top: 0;
         width: 100%;
       }
+
+      nav ul li {
+        display: inline-block;
+        padding: 20px;
+        margin-right: 100px;
+    }
+
+    .col-md-3 img{
+        width: 200px;
+        height: 200px;
+    } 
+
+    #contact .jumbotron{
+        background-color:black;
+        color: white;
+    }
+    #contact{
+        text-align: center;
+    
+    }#menu{
+        text-align: center;
+        padding: 20px;
+    }
+    .jumbotron{
+        background-color: black;
+        
