@@ -1,255 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=>, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="css/styles.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Curious Place Pizza | Must be the pizza</title>
+    </head>
+    <body>
+        
+        <div class="logo">
+            <img src="images/chickenbbq.jpg">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar text-white">
+                <h1 id="Curious-pizza" class="">Pizza Palace<span id="spantext"></span> !</h1>
+             
+                <div class="navi">
+            <div class="navi">
+                <ul class="nav-items">
+                    <li><a href="#menus">Menu</a></li>
+                    <li><a href="#order">Orders</a></li>
+                   
+                </ul>
+            </div>
+            </nav>
+        </div>
 
-<head>
-    <title>Pizza Restaurant</title>
-    <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src=""></script>
-    
-
-</head>
-
-<body>
-
-    <nav id="navbar" style="margin-bottom: 5rem; background-color:aqua;width: 100%;">
-
-
-        <ul>
-            <strong>
-                <img src="/images/pizzalogo.jpg alt="" id="logo" style="margin-left: 20rem" height="40px;">
-             </strong>
-             <li style="padding-left: 30rem;">a href="#</li>
-
-
-                         <li><a class="active" href="#logo">Home</a></li>
-            <li><a href="#news">Menu</a></li>
-            <li><a href="#about">Order</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-
-          </nav>
-
-          <div class="container" style="padding-top: 8rem;">
-            <div id="logo">
-
-
-        <h1>
-            WElCOME TO <br>
-            CURIOUS PLATE.
-        </h1>
-        <p>
-            For the best fingerlicking pizza .<br>
-            Welcome
-        </p>
-
-
-<div id="menu">
-    <h2>Menu></h2>
-<p>Get to check our varieties to confirm your choice</p>
-<p> Providing the tasty yummy pizza you would like</p>
-
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-
-        <img src="/images/cheesepizza.jpg" alt="" id="">
-        <p> Cheese pizza</p>
-    </div>
-    <div class="col-md-3">
-
-        <img src="/images/chickenbbq.jpg" alt="" id="">
-
-        <p>Chicken Barbeque</p>
-
-    </div>
-    <div class="col-md-3">
-
-        <img src="/images/funnypizza.jpg" alt="" id="1">
-
-        <p>Funny Pizza</p>
-
-    </div>
-    <div class="col-md-3">
-
-        <img src="Meat Pizza" alt="" id="">
-
-        <p>Meat pizza</p>
-
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-
-        <img src="/images/hawaian.jpg" alt="" id="">
-        <p>Hawaiian pizza</p>
-    </div>
-
-
-    <div class="col-md-3">
-
-        <img src="/images/meatpizza.jpg" alt="" id="">
-
-        <p>Meat pizza</p>
-
-    </div>
-    <div class="col-md-3">
-
-        <img src="/images/peperroni.jpg" alt="" id="">
-
-        <p>Pepperoni Pizza</p>
-
-    </div>
-    <div class="col-md-3">
-
-        <img src="/images/vegetablepizza.jpg" alt="" id="">
-        <p>Vegetable Pizza</p>
-
-    </div>
-</div>
-
-<h2>ORDER NOW</h2>
-                    <P>Your order will be deliverd at your door step</P>
-                    <form action="" id="lily">
-                        <label for="">Pizza</label>
-                        <select class="custom-select my-1 mr-sm-2" id="flavour">
-                            <option selected>pick your taste</option>
-                            <option value="Cheese  Pizza">Buffalo Pizza</option>
-                            <option value="Chicken Barbeque Pizza">Cheese Pizza</option>
-                            <option value="Funny Pizza">Hawaiian Pizza</option>
-                            <option value="Hawaiian Pizza">Meat Pizza.</option>
-                            <option value="">Meat Pizza</option>
-                            <option value="Pepperoni Pizza">Supreme Pizza</option>
-                            <option value="Vegetable Pizza">Vaggie Pizza</option>
-                                <ption value="Beef Pizza">Beef Pizza</option>
+        <div class="welcome" id="welcome">
+            <br><br><br><br>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="images/cheesepizza.jpg" alt="cheesepizza" class="karibu-img">
+                    </div>
+                    <div class="col-md-6 cheesepizza-text">
+                        <h1 class="text-center txt txt-big">Welcome <span class="pice">to Curious </span><span class="exc">Plate!</span>
+                        </h1>
+                        <p class="text-center txt">For the best pizza in town that  you will ever taste</p>
+                        <p class="text-center txt">Order and satisfy your taste buds today.</p>
+                        <a href="#menus">
+                            <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menus"></div>
+        <br>
+        <div class="menu col-md-12">
+            <div class="menu-overlay">
+                <h1 class="text-center text-white" id="menu">Menu</h1>
+                <div class="pizza-menu row text-center">
+                    <figure class="col-sm-4">
+                        <img src="images/chickenbbq.jpg" alt="small-pizza" class="wiggle">
+                        <figcaption class="text-white">Small<br>Ksh. 300</figcaption>
+                    </figure>
+                    <figure class="col-sm-4">
+                        <img src="images/vegetablepizza.jpg" alt="medium-pizza" class="wiggle">
+                        <figcaption class="text-white">Medium<br>Ksh. 600</figcaption>
+                    </figure>
+                    <figure class="col-sm-4">
+                        <img src="images/meatpizza.jpg" alt="large-pizza" class="wiggle">
+                        <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="orders" id="order">
+            <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 order-overlay text-center">
+                    <form class="col-sm-6 offset-sm-3 text-center">
+                        <label col>Pick your pizza Flavour:</label>
+                        <select class="custom-select custom-select-md mb-3 flavour" required>
+                            <option value="vegtikka">Veg Tikka</option>
+                            <option value="chickentikka">Chicken Tikka</option>
+                            <option value="periperi">Peri-Peri Chicken</option>
+                            <option value="bbq">BBQ Steak</option>
+                            <option value="boerewors">Boerewors</option>
+                            <option value="hawaiian">Hawaiian</option>
+                            <option value="mushroom">Chicken and Mushroom</option>
+                            <option value="regina">Regina Pizza</option>
                         </select>
-
-                        <label for="size">SIZE</label>
-                        <select class="custom-select my-1 mr-sm-2" id="size">
-                            <option selected>select size</option>
-                            <option value="1">Large - ksh 1000</option>
-                            <option value="2">Medium - ksh 800</option>
-                            <option value="3">small - ksh 600</option>
+                        <label>Chose your preferred Size:</label>
+                        <select class="custom-select custom-select-md mb-3" id="size" required>
+                            <option value="regular">Regular</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
                         </select>
-
-                        <label for="size">CRUST</label>
-                        <select class="custom-select my-1 mr-sm-2" id="crust">
-                            <option selected>Crust</option>
-                            <option value="1">Crispy ksh 300</option>
-                            <option value="2">Stuffed ksh 150</option>
-                            <option value="3">Gluten-free ksh 50</option>
+                        <label for="crust">Choose your favorite Crust:</label>
+                        <select class="custom-select custom-select-md mb-3" id="crust" required>
+                            <option value="thin">Thin Crust @ Ksh. 100</option>
+                            <option value="thick">Thick Crust @ Ksh. 150</option>
+                            <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                            <option value="custom">Custom Crust @ sh. 280</option>
                         </select>
-
-                        <label for="size">Topping</label>
-                        <select class="custom-select my-1 mr-sm-2" id="topping">
-                            <option selected>topping</option>
-                            <option value="1">Mushroom ksh 100</option>
-                            <option value="2">Sausage ksh 150</option>
-                            <option value="3">Bacon ksh 50</option>
+                        <label>Select Your favourite Toppings</label>
+                        <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                            <option value="tomato">Tomato @ sh. 80</option>
+                            <option value="onions">Onions @ sh. 80</option>
+                            <option value="mushroom">Mushroom @ sh. 80</option>
+                            <option value="greenpepper">Green Pepper @ sh. 80</option>
+                            <option value="olives">Olives @ sh. 120</option>
+                            <option value="pineapple">Pineapple @ sh. 120</option>
+                            <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                            <option value="bacon">Bacon @ sh. 120</option>
+                            <option value="mince">Mince @ sh. 120</option>
+                            <option value="beef">Beef Peperoni @ sh. 170</option>
+                            <option value="chicken">Periperi Chicken @ sh. 170</option>
                         </select>
+                        <label for="number">Number of Pizza's</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
 
-                        <div class="col">
-                            <label for="">Number of pizza</label>
-                            <input type="number" class="form-control" id="number1" placeholder=" number of pizza"
-                                required>
+
+                    </form>
+                    <a href="#summary">
+                        <button type="submit" class="btn btn-success checkout" id="checkout">
+                            Checkout
+                        </button>
+                    </a>
+                    <div class="order-summary" id="sum-order">
+                        <h1 class="text-center" id="summary">Order Summary</h1>
+                        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+                        <ol id="list" class="text-center sum">
+                        </ol>
+            
+            
+                        <div class="cdata-overlay">
+                            <div class="customerdata row">
+                                <div class="col-sm-3"></div>
+                                <form action="" class="form-group col-sm-6 data">
+                                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                                </form>
+            
+                                <div class="col-sm-3"></div>
+                            </div>
                         </div>
+                        <div class="d-block mx-auto text-center">
+                            <button class='deliver'>Make Delivery</button>
+                            <button class='delivernot'>Pick Up</button>
+                        </div>
+                    </div>
 
-                        <!---->
-
- <h2>Receipt</h2>
-
-<table class="table table-bordered" id="myTable">
-    <thead>
-        <tr>
-            <th scope="col">Flavour</th>
-            <th scope="col">size</th>
-            <th scope="col">Crust</th>
-            <th scope="col">Topping</th>
-            <th scope="col">Number of pizza</th>
-            <th scope="col">Total</th>
-            <th scope="col">Delete</th>
-        </tr>
-    </thead>
-
-</table>
-<br>
-<div>
-    <h2>Your total price is: <span id="total"></span></h2>
-</div>
-
-<button type="button" class="btn btn-primary btn-lg" id="home"> Home deliver</button>
-<br>
-<div class="dev">
-    <h2> Home delivery</h2>
-    <p>Please fill this form and click on the deliver button</p>
-    <div class="row">
-        <div class="col">
-            <label for="">Name</label>
-            <input type="text" class="form-control" placeholder="your name" id="nam">
-        </div>
-        <div class="col">
-            <label for="">Location</label>
-            <input type="text" class="form-control" placeholder="your location" id="loc">
-        </div>
-        <div class="col">
-            <label for="">Phone number</label>
-            <input type="number" class="form-control" placeholder="your number" id="num">
-        </div>
-        <button type="button" class="btn btn-success" id="liver" onclick="delivery()">Deliver</button>
-    </div>
-</div>
-</div>
-</div>
-
-</div>
-
-<div id="contact">
-    <h2> Contact Us</h2>
-    <div class="jumbotron">
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Email</h3>
-                    <p>curiousplate2021@gmail.com</p>
-                <p> Phone number : 0701010101</p>
-            </div>
-
-
-            <div class="col-md-4">
-                <h3>Locate us</h3>
-                <p>Express mall</p>
-                <P>Kanairo, Kenya</P>
-                <p> Copyright @ C 2021 Curious Plate</p>
-            </div>
-
-            <div class="col-md-4">
-                <h3> Follow Us</h3>
-                <div class="icon">
-                    <a href=""><img src="/images/instagram.jpeg" alt=""></a>
                 </div>
-                <br>
-                <div class="icon">
-                    <a href=""><img src="/images/Facebook-logo.png" alt=""></a>
-                </div>
-                <br>
-                <div class="icon">
-                    <a href=""><img src="/images/twitter.png" alt=""></a>
-                </div>
+                <div class="col-sm-2"></div>
             </div>
         </div>
-    </div>
-</div>
+        
+
+        <div id="contact">
+            <h2> Contact Us</h2>
+            <div class="jumbotron">
+            <div class="row">
+            <div class="col-md-4">
+            <h3>Email</h3>
+            <p>CuriousPlate@gmail.com</p>
+            <p>Phone Number-0111910096</p>
+            </div>
+            
+            <div class="col-md-4">
+            <h3>Locate us</h3>
+            <p>Express mall</p>
+            <P>Kanairo, Kenya</P>
+            <p> Copyright @ C 2021 Curious Plate</p>
+            </div>
+            
+            <div class="col-md-4">
+            <h3> Follow Us</h3>
+            <div class="icon">
+            <a href=""><img src="images/instagram.jpeg" alt=""></a>
+            </div>
+            <br>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+<script src="js/jquery-3.6.0.js"></script>
+            <script src="js/script.js"></script>
 
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js">
-</script>
-<script src="js/script.js"
-
-</body>
-
-</html>
+            </body>
+            </html>
+        
