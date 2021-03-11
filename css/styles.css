@@ -1,31 +1,155 @@
-#navbar{
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
+#Curious-pizza {
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: normal;
+    text-decoration: (underline);
+    text-decoration: aquamarine;
 
-      nav ul li {
-        display: inline-block;
-        padding: 20px;
-        margin-right: 100px;
-    }
+}
+.logo {
 
-    .col-md-3 img{
-        width: 200px;
-        height: 200px;
-    } 
+    background-color:rgb(29, 54, 3);
+}
+.navi {
+    float: center;
+    background-color:rgb(59, 34, 5);
+    font-size:50px;
 
-    #contact .jumbotron{
-        background-color:black;
-        color: white;
-    }
-    #contact{
-        text-align: center;
+}
+
+
+#yourdiv {
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 40px;
+    font-family: fantasy;
+    text-decoration: chocolate;
     
-    }#menu{
-        text-align: center;
-        padding: 20px;
+}
+.nav-items {
+    text-decoration: rgb(158, 219, 45);
+}
+
+figure img {
+    height: 260px;
+    width: 260px;
+
+}
+#menu {
+    font-family: fantasy;
+    font-size: larger;
+    
+}
+
+.menu-overlay {
+    height: inherit;
+    width: inherit;
+    background-color: rgb(12, 124, 46);
+    background-blend-mode: soft-light;
+
+}
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+    text-decoration: rgba(0, 0, 0, 0.8);
+}
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: fantasy;
+}
+#order {
+    text-decoration:  rgb(59, 34, 5))
+    font-family: fantasy;
+}
+
+figcaption {
+    text-decoration: rgb(112, 221, 10);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color:rgb(153, 52, 5)
+}
+
+#menu {
+    padding-top: 20px;
+}
+
+#order-pizza {
+    background-image: 
+}
+
+#list li {
+    font-size: 24px;
+    font-family: fantasy;
+}
+
+.order-summary h1, .summary, .contact {
+    color: rgb(59, 34, 5);
+    font-family: fantasy;
+    margin-top: 30px;
+}
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color:rgba(0, 0, 0, 0.8)
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver, .delivernot {
+    margin: 10px;
+}
+
+.footl {
+    height: inherit;
+    background-color: rgba(169, 245, 133, 0.7);
+}
+#container { 
+    width:250px; height:50px; border:1px solid rgb(150, 139, 245); 
+}
+
+#contact .jumbotron{
+    background-color:brown
+    color: white;
     }
-    .jumbotron{
-        background-color: black;
-    }   
+    
+    #contact{
+    text-align: center;
+    
+    }
+    
